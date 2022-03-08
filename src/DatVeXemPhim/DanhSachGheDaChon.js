@@ -31,9 +31,9 @@ export class DanhSachGheDaChon extends Component {
         <table className={`${style.tableDaChon}`} border='1'>
           <thead>
             <tr>
-              <th>Số ghế</th>
-              <th>Giá</th>
-              <th>Hủy</th>
+              <th className='text-white'>Số ghế</th>
+              <th className='text-white'>Giá</th>
+              <th className='text-white'>Hủy</th>
             </tr>
             {this.renderTable()}
             <tr>
